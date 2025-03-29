@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Basic/Guide.md",
+                "file": "Obsidian Basic/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Guide"
+              "title": "무제"
             }
           }
         ]
@@ -171,9 +171,10 @@
   },
   "active": "9e52b8d9b671f846",
   "lastOpenFiles": [
+    "Obsidian Basic/Guide.md",
+    "Obsidian Basic/무제.md",
     "Nest.js/Nest.js 코딩 시 문제 또는 알게된 점.md",
     "ReadMe.md",
-    "Obsidian Basic/Guide.md",
     "Obsidian Basic/무제 1.md",
     "Obsidian Basic",
     "환영합니다!.md",
