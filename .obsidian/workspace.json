@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "환영합니다!.md",
+                "file": "Nest.js/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "환영합니다!"
+              "title": "무제"
             }
           }
         ]
@@ -181,11 +181,14 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "874d742dee05c07e",
   "lastOpenFiles": [
-    "환영합니다!.md"
+    "환영합니다!.md",
+    "Nest.js/무제.md",
+    "Nest.js"
   ]
 }
