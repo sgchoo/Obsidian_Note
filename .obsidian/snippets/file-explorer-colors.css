@@ -7,7 +7,7 @@
   
   /* 특정 폴더 스타일링 */
   .nav-folder-title[data-path="Nest.js"] {
-    color: var(--ctp-blue) !important;
+    color: #fc2a2a !important;
     font-weight: bold;
   }
   
