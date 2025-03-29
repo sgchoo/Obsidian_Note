@@ -1,0 +1,28 @@
+/* 파일 유형별 색상 지정 */
+
+/* 마크다운 파일 */
+.nav-file-title[data-path$=".md"] {
+    color: var(--ctp-peach) !important;
+  }
+  
+  /* 특정 폴더 스타일링 */
+  .nav-folder-title[data-path="Nest.js"] {
+    color: var(--ctp-blue) !important;
+    font-weight: bold;
+  }
+  
+  .nav-folder-title[data-path="Obsidian Basic"] {
+    color: var(--ctp-yellow) !important;
+    font-weight: bold;
+  }
+  
+  /* 특정 파일 이름으로 스타일링
+  .nav-file-title[data-path$="README.md"] {
+    color: var(--ctp-lavender) !important;
+    font-weight: bold;
+  }
+  
+  .nav-file-title[data-path$="중요.md"] {
+    color: var(--ctp-red) !important;
+    font-weight: bold;
+  } */
