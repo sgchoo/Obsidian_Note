@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nest.js/Nest.js 코딩 시 문제 또는 알게된 점.md",
+                "file": "Obsidian Basic/2. 파일 탐색기에 색상 적용.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nest.js 코딩 시 문제 또는 알게된 점"
+              "title": "2. 파일 탐색기에 색상 적용"
             }
           }
         ]
@@ -169,10 +169,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "448cb2f00a9b02f8",
+  "active": "9e52b8d9b671f846",
   "lastOpenFiles": [
-    "Obsidian Basic/2. 파일 탐색기에 색상 적용.md",
     "Obsidian Basic/1. Guide.md",
+    "Obsidian Basic/2. 파일 탐색기에 색상 적용.md",
     "Nest.js/Nest.js 코딩 시 문제 또는 알게된 점.md",
     "ReadMe.md",
     "Obsidian Basic/무제 1.md",
