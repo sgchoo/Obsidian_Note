@@ -2,6 +2,7 @@
   "cssTheme": "AnuPpuccin",
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "extended-colorschemes"
+    "extended-colorschemes",
+    "file-explorer-colors"
   ]
 }
