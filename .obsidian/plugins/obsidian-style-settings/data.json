@@ -33,5 +33,6 @@
   "anuppuccin-theme-settings@@anp-colorful-frame-opacity": 1,
   "anuppuccin-theme-settings@@anp-hide-borders": false,
   "anuppuccin-theme-settings@@anp-border-padding": 10,
-  "anuppuccin-theme-settings@@anp-color-transition-toggle": false
+  "anuppuccin-theme-settings@@anp-color-transition-toggle": false,
+  "anuppuccin-theme-settings@@anp-toggle-preview": false
 }
