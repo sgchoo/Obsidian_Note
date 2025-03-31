@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Basic/1. Guide.md",
+                "file": "Obsidian Basic/3. Git 플러그인으로 자동 동기화 설정하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Guide"
+              "title": "3. Git 플러그인으로 자동 동기화 설정하기"
             }
           }
         ]
@@ -171,10 +171,10 @@
   },
   "active": "9e52b8d9b671f846",
   "lastOpenFiles": [
+    "Obsidian Basic/2. 파일 탐색기에 색상 적용.md",
+    "Obsidian Basic/1. Guide.md",
     "Nest.js/Nest.js 코딩 시 문제 또는 알게된 점.md",
     "Obsidian Basic/3. Git 플러그인으로 자동 동기화 설정하기.md",
-    "Obsidian Basic/1. Guide.md",
-    "Obsidian Basic/2. 파일 탐색기에 색상 적용.md",
     "ReadMe.md",
     "Obsidian Basic/무제 1.md",
     "Obsidian Basic",
