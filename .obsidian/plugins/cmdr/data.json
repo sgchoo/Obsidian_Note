@@ -10,9 +10,15 @@
   "statusBar": [],
   "pageHeader": [
     {
-      "id": "templater-obsidian:templates/summary_template.md.md",
-      "icon": "lucide-square-bottom-dashed-scissors",
-      "name": "Templater: Insert templates/summary_template.md.md",
+      "id": "templater-obsidian:templates/summary_template_lecture.md.md",
+      "icon": "lucide-university",
+      "name": "Templater: Insert templates/summary_template_lecture.md.md",
+      "mode": "any"
+    },
+    {
+      "id": "templater-obsidian:templates/summary_template_thesis.md.md",
+      "icon": "templater-icon",
+      "name": "Templater: Insert templates/summary_template_thesis.md.md",
       "mode": "any"
     }
   ],
