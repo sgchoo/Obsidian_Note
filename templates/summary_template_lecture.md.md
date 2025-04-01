@@ -99,9 +99,7 @@ try {
 > 
 > ---
 > 
-> **핵심 키워드**: ${keywordList}
-> 
-> *AI로 자동 생성된 요약입니다.*`;
+> **핵심 키워드**: ${keywordList}`;
 } catch (error) {
     // 오류 처리
     console.error("API 오류:", error);
