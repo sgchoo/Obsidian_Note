@@ -37,17 +37,10 @@
                 "id": "9e52b8d9b671f846",
                 "type": "leaf",
                 "state": {
-                  "type": "canvas",
-                  "state": {
-                    "file": "무제.canvas",
-                    "viewState": {
-                      "x": 0,
-                      "y": 0,
-                      "zoom": 0
-                    }
-                  },
-                  "icon": "lucide-layout-dashboard",
-                  "title": "무제"
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "그래프 뷰"
                 }
               }
             ]
