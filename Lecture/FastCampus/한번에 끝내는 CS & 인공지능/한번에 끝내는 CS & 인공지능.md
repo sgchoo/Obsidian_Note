@@ -1,1 +1,2 @@
 [[FastCampus]]
+[[part.1 기초 프로그래밍]]
