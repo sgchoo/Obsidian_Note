@@ -1,4 +1,4 @@
-<%\*const GEMINI_API_KEY="AIzaSyALDzRiwn0Wf4adbYnUNcUBskrqwyW3gr0"%>
+<%*const GEMINI_API_KEY="AIzaSyALDzRiwn0Wf4adbYnUNcUBskrqwyW3gr0"%>
 
   
 
