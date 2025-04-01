@@ -3,22 +3,29 @@
   "showAddCommand": true,
   "debug": false,
   "editorMenu": [],
-  "fileMenu": [],
+  "fileMenu": [
+    {
+      "id": "editor:insert-tag",
+      "icon": "lucide-tag",
+      "name": "태그 추가",
+      "mode": "any"
+    }
+  ],
   "leftRibbon": [],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
   "pageHeader": [
     {
-      "id": "templater-obsidian:templates/summary_template_thesis.md",
-      "icon": "lucide-scissors-square-dashed-bottom",
-      "name": "Templater: Insert templates/summary_template_thesis.md",
-      "mode": "any"
-    },
-    {
       "id": "templater-obsidian:templates/summary_template_lecture.md",
       "icon": "lucide-university",
       "name": "Templater: Insert templates/summary_template_lecture.md",
+      "mode": "any"
+    },
+    {
+      "id": "templater-obsidian:templates/summary_template_thesis.md",
+      "icon": "lucide-scissors-square-dashed-bottom",
+      "name": "Templater: Insert templates/summary_template_thesis.md",
       "mode": "any"
     }
   ],
