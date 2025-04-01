@@ -71,7 +71,7 @@ try {
                 {
                     role: "user",  // role 추가
                     parts: [
-                        { text: "다음 텍스트에서 5개의 핵심 키워드를 추출하여 쉼표로 구분된 목록으로 제공해주세요(키워드만 나열):" },
+                        { text: "다음 텍스트에서 3~5개의 핵심 키워드를 추출하여 쉼표로 구분된 목록으로 제공해주세요(키워드만 나열):" },
                         { text: fileContent }
                     ]
                 }
@@ -90,7 +90,7 @@ try {
         keywordList = keywords.json.candidates[0].content.parts[0].text;
     }
     
-    // 결과 서식화
+    // 결과 서식화 - 원본 내용 제거
     tR = `## 📚 강의 요약: ${tp.file.title}
 > [!abstract]+ 강의 핵심 요약
 > *${formattedDate}에 생성됨*
@@ -101,9 +101,7 @@ try {
 > 
 > **핵심 키워드**: ${keywordList}
 > 
-> *AI로 자동 생성된 요약입니다.*
-## 원본 강의 내용
-${fileContent}`;
+> *AI로 자동 생성된 요약입니다.*`;
 } catch (error) {
     // 오류 처리
     console.error("API 오류:", error);
