@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/ch.1 SW 프로그래밍(Python).md",
+                "file": "templates/summary_template.md.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ch.1 SW 프로그래밍(Python)"
+              "title": "summary_template.md"
             }
           }
         ]
@@ -184,21 +184,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "환영합니다!.md",
+                "file": "templates/summary_template.md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "환영합니다! 의 개요"
+              "title": "summary_template.md 의 개요"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,10 +212,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1f3549acd4632738",
+  "active": "2b0730b70f8d029a",
   "lastOpenFiles": [
-    "Untitled.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/ch.1 SW 프로그래밍(Python).md",
+    "Untitled.md",
     "templates/summary_template.md.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/ch.2-1 변수와 연산자에 대해_1.md",
     "templates",
