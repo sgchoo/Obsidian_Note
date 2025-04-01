@@ -1,4 +1,4 @@
-[[한번에 끝내는 CS & 인공지능]]
+[[part.1 기초 프로그래밍]]
 # 소프트웨어 프로그래밍의 기본과 Python
 
 ## 컴퓨팅 사고력 (Computational Thinking)
