@@ -8,7 +8,20 @@
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
-  "pageHeader": [],
+  "pageHeader": [
+    {
+      "id": "templater-obsidian:templates/summary_template.md.md",
+      "icon": "templater-icon",
+      "name": "Templater: Insert templates/summary_template.md.md",
+      "mode": "any"
+    },
+    {
+      "id": "templater-obsidian:create-templates/summary_template.md.md",
+      "icon": "templater-icon",
+      "name": "Templater: Create templates/summary_template.md.md",
+      "mode": "any"
+    }
+  ],
   "macros": [],
   "explorer": [],
   "hide": {
