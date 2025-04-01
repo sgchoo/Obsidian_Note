@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/summary_template_ㅅhesis.md.md",
+                "file": "templates/무제.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "summary_template_ㅅhesis.md"
+              "title": "무제"
             }
           }
         ]
@@ -142,10 +142,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "448cb2f00a9b02f8",
+  "active": "1f3549acd4632738",
   "lastOpenFiles": [
+    "templates/summary_template_thesis.md.md",
+    "templates/무제.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/ch.1 SW 프로그래밍(Python).md",
-    "templates/summary_template_ㅅhesis.md.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/ch.2-1 변수와 연산자에 대해_1.md",
     "Untitled.md",
     "templates",
