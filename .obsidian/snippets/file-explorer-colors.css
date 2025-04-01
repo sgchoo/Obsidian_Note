@@ -15,6 +15,11 @@
     color: #defd90 !important;
     font-weight: bold;
   }
+
+  .nav-folder-title[data-path="Lecture"] {
+    color: #defd90 !important;
+    font-weight: bold;
+  }
   
   /* 특정 파일 이름으로 스타일링
   .nav-file-title[data-path$="README.md"] {
