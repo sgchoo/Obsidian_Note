@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/summary_template.md.md",
+                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/ch.1 SW 프로그래밍(Python).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "summary_template.md"
+              "title": "ch.1 SW 프로그래밍(Python)"
             }
           }
         ]
@@ -125,80 +125,10 @@
   "right": {
     "id": "fcffdb68ec9be87e",
     "type": "split",
-    "children": [
-      {
-        "id": "8679808d5421fb15",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "c6ff75bfab97ac54",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "환영합니다!.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "환영합니다! 의 백링크"
-            }
-          },
-          {
-            "id": "4674dcb01f09b412",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "환영합니다!.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "환영합니다! 의 나가는 링크"
-            }
-          },
-          {
-            "id": "bffed761d9e40a77",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "태그"
-            }
-          },
-          {
-            "id": "2b0730b70f8d029a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "templates/summary_template.md.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "summary_template.md 의 개요"
-            }
-          }
-        ],
-        "currentTab": 3
-      }
-    ],
+    "children": [],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,11 +142,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2b0730b70f8d029a",
+  "active": "1f3549acd4632738",
   "lastOpenFiles": [
+    "templates/summary_template.md.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/ch.1 SW 프로그래밍(Python).md",
     "Untitled.md",
-    "templates/summary_template.md.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/ch.2-1 변수와 연산자에 대해_1.md",
     "templates",
     "Nest.js/Nest.js 코딩 시 문제 또는 알게된 점.md",
