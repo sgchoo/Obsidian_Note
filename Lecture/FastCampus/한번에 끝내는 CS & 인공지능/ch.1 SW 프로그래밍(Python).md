@@ -1,6 +1,6 @@
-
-
 [[한번에 끝내는 CS & 인공지능]]
+
+
 # 소프트웨어 프로그래밍의 기본과 Python
 
 ## 컴퓨팅 사고력 (Computational Thinking)
