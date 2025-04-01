@@ -29,10 +29,11 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "templates/summary_template.md.md"
+    "templates/summary_template.md.md",
+    ""
   ],
   "startup_templates": [
-    ""
+    "templates/summary_template.md.md"
   ],
   "intellisense_render": 1
 }
