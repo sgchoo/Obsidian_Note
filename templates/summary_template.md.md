@@ -17,7 +17,7 @@ const fileContent = tp.file.content;
 <%*
 const response = await tp.obsidian.requestUrl({
     method: "POST",
-    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent",
+    url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyALDzRiwn0Wf4adbYnUNcUBskrqwyW3gr0",
     headers: {
         "Content-Type": "application/json",
         "x-goog-api-key": GEMINI_API_KEY
