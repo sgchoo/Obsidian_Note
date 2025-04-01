@@ -16,7 +16,8 @@
               "state": {
                 "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/chapt.2-1 변수와 연산자에 대해_1.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "chapt.2-1 변수와 연산자에 대해_1"
@@ -210,7 +211,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "448cb2f00a9b02f8",
+  "active": "1f3549acd4632738",
   "lastOpenFiles": [
     "무제.canvas",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/chapt.2-1 변수와 연산자에 대해_1.md",
