@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "templates/summary_template.md.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -145,9 +145,9 @@
   "active": "1f3549acd4632738",
   "lastOpenFiles": [
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/ch.1 SW 프로그래밍(Python).md",
+    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/ch.2-1 변수와 연산자에 대해_1.md",
     "templates/summary_template.md.md",
     "Untitled.md",
-    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/ch.2-1 변수와 연산자에 대해_1.md",
     "templates",
     "Nest.js/Nest.js 코딩 시 문제 또는 알게된 점.md",
     "Obsidian Basic.md",
