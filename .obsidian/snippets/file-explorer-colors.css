@@ -25,6 +25,11 @@
     color: #fc2a2a !important;
     font-weight: bold;
   }
+
+  .nav-folder-title[data-path="Lecture/Inflearn"] {
+    color: #16AA52 !important;
+    font-weight: bold;
+  }
   
   /* 특정 파일 이름으로 스타일링
   .nav-file-title[data-path$="README.md"] {
