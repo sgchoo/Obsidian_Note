@@ -12,30 +12,61 @@
             "id": "1f3549acd4632738",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/chapt.2-1 변수와 연산자에 대해_1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "chapt.2-1 변수와 연산자에 대해_1"
             }
           }
         ]
       },
       {
-        "id": "ef5053af71f9f298",
-        "type": "tabs",
+        "id": "29053ee461645d2a",
+        "type": "split",
         "dimension": 36.51551312649165,
         "children": [
           {
-            "id": "9e52b8d9b671f846",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
+            "id": "ef5053af71f9f298",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9e52b8d9b671f846",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "그래프 뷰"
+                }
+              }
+            ]
+          },
+          {
+            "id": "a45d241b5ce88e4d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3d379275d163506c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2025-04-01.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "2025-04-01"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -92,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 243.5
   },
   "right": {
     "id": "fcffdb68ec9be87e",
@@ -183,11 +214,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e52b8d9b671f846",
+  "active": "1f3549acd4632738",
   "lastOpenFiles": [
+    "2025-04-01.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/chapt.2-1 변수와 연산자에 대해_1.md",
-    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/chapt.2-2 변수와 연산자에 대해_2.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/chapt.1 SW 프로그래밍(Python).md",
+    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/chapt.2-2 변수와 연산자에 대해_2.md",
     "Lecture/Inflearn",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능",
     "Obsidian Basic/3. Git 플러그인으로 자동 동기화 설정하기.md",
