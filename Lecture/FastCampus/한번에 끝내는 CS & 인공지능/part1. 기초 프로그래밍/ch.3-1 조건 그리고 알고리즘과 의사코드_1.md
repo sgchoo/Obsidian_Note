@@ -10,16 +10,7 @@
 
 순서도(Flowchart)는 알고리즘이나 프로세스의 흐름을 시각적으로 표현하는 다이어그램입니다.
 
-| 기호                                      | 이름                | 설명                |
-| --------------------------------------- | ----------------- | ----------------- |
-| ![단말](https://i.imgur.com/wQFg6Lv.png)  | 단말(Terminal)      | 순서도의 시작과 끝을 표시    |
-| ![흐름선](https://i.imgur.com/wCzd0XD.png) | 흐름선(Flow Line)    | 작업 흐름의 방향을 명시     |
-| ![준비](https://i.imgur.com/aSH4zDQ.png)  | 준비(Preparation)   | 작업 단계 시작 전 준비     |
-| ![처리](https://i.imgur.com/OODTwg6.png)  | 처리(Process)       | 처리해야 할 작업을 명시     |
-| ![입출력](https://i.imgur.com/luzpYfF.png) | 입출력(Input/Output) | 데이터 입력 또는 결과 출력   |
-| ![판단](https://i.imgur.com/5MvUhfo.png)  | 판단(Decision)      | 조건에 따라 흐름선을 선택    |
-| ![프린트](https://i.imgur.com/h1ZQNBM.png) | 프린트(Document)     | 프린터 등을 이용한 물리적 출력 |
-
+![순서도][https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.blog.naver.com%2Fpk3152%2F222152111038&psig=AOvVaw3NuSLNr67TGTwXEVCrPtYp&ust=1743603041964000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDew9GBt4wDFQAAAAAdAAAAABAE]
 ## 조건문 순서도 예시
 
 아래는 간단한 조건문의 순서도 예시입니다:
