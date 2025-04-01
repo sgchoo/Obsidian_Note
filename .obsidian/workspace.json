@@ -37,10 +37,17 @@
                 "id": "9e52b8d9b671f846",
                 "type": "leaf",
                 "state": {
-                  "type": "graph",
-                  "state": {},
-                  "icon": "lucide-git-fork",
-                  "title": "그래프 뷰"
+                  "type": "canvas",
+                  "state": {
+                    "file": "무제.canvas",
+                    "viewState": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 0
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "무제"
                 }
               }
             ]
@@ -210,8 +217,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e52b8d9b671f846",
+  "active": "448cb2f00a9b02f8",
   "lastOpenFiles": [
+    "무제.canvas",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/chapt.2-1 변수와 연산자에 대해_1.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/chapt.2-2 변수와 연산자에 대해_2.md",
     "2025-04-01.md",
