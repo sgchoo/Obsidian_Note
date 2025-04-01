@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "templates/summary_template.md.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },

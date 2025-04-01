@@ -14,12 +14,6 @@
       "icon": "lucide-square-bottom-dashed-scissors",
       "name": "Templater: Insert templates/summary_template.md.md",
       "mode": "any"
-    },
-    {
-      "id": "templater-obsidian:create-templates/summary_template.md.md",
-      "icon": "lucide-pencil-ruler",
-      "name": "Templater: Create templates/summary_template.md.md",
-      "mode": "any"
     }
   ],
   "macros": [],
