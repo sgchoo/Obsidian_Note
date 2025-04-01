@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/summary_template_lecture.md.md",
+                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/ch.1 SW 프로그래밍(Python).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "summary_template_lecture.md"
+              "title": "ch.1 SW 프로그래밍(Python)"
             }
           }
         ]
@@ -144,8 +144,8 @@
   },
   "active": "1f3549acd4632738",
   "lastOpenFiles": [
-    "templates/summary_template_thesis.md.md",
-    "templates/summary_template_lecture.md.md",
+    "templates/summary_template_lecture.md",
+    "templates/summary_template_thesis.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/ch.1 SW 프로그래밍(Python).md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/ch.2-1 변수와 연산자에 대해_1.md",
     "Untitled.md",

@@ -29,8 +29,8 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "templates/summary_template_thesis.md.md",
-    "templates/summary_template_lecture.md.md"
+    "templates/summary_template_lecture.md",
+    "templates/summary_template_thesis.md"
   ],
   "startup_templates": [
     "templates/summary_template.md.md"
