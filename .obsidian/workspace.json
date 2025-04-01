@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/ch.3-1 조건 그리고 알고리즘과 의사코드_1.md",
+                "file": "Nest.js/관리자 계정 활성화 엔드포인트 보안 대안 분석.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ch.3-1 조건 그리고 알고리즘과 의사코드_1"
+              "title": "관리자 계정 활성화 엔드포인트 보안 대안 분석"
             }
           }
         ]
@@ -144,8 +144,8 @@
   },
   "active": "1f3549acd4632738",
   "lastOpenFiles": [
-    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/ch.2-2 변수와 연산자에 대해_2.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/ch.3-1 조건 그리고 알고리즘과 의사코드_1.md",
+    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/ch.2-2 변수와 연산자에 대해_2.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/part.1 기초 프로그래밍.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/ch.1 SW 프로그래밍(Python).md",
     "Lecture/FastCampus/FastCampus.md",
@@ -156,7 +156,7 @@
     "templates/summary_template_lecture.md",
     "Untitled.md",
     "templates",
-    "Nest.js/Nest.js 코딩 시 문제 또는 알게된 점.md",
+    "Nest.js/관리자 계정 활성화 엔드포인트 보안 대안 분석.md",
     "Obsidian Basic.md",
     "Obsidian Basic/3. Git 플러그인으로 자동 동기화 설정하기.md",
     "Obsidian Basic/2. 파일 탐색기에 색상 적용.md",
