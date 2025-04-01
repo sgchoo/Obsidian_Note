@@ -17,7 +17,7 @@
     },
     {
       "id": "templater-obsidian:templates/summary_template_thesis.md.md",
-      "icon": "templater-icon",
+      "icon": "lucide-scissors-square-dashed-bottom",
       "name": "Templater: Insert templates/summary_template_thesis.md.md",
       "mode": "any"
     }
