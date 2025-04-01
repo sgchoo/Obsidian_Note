@@ -10,37 +10,7 @@
 
 순서도(Flowchart)는 알고리즘이나 프로세스의 흐름을 시각적으로 표현하는 다이어그램입니다.
 
-![순서도][https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.blog.naver.com%2Fpk3152%2F222152111038&psig=AOvVaw3NuSLNr67TGTwXEVCrPtYp&ust=1743603041964000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDew9GBt4wDFQAAAAAdAAAAABAE]
-## 조건문 순서도 예시
-
-아래는 간단한 조건문의 순서도 예시입니다:
-
-```
-┌──────────┐
-│  시작    │
-└────┬─────┘
-     ▼
-┌────────────┐
-│ 나이 입력  │
-└─────┬──────┘
-      ▼
-┌─────────────┐
-< 나이 >= 18? >──────아니오────┐
-└──────┬──────┘                │
-       │                       │
-       │예                     │
-       ▼                       ▼
-┌───────────────┐      ┌───────────────┐
-│ "성인입니다"  │      │ "미성년자입니다" │
-│  출력        │      │  출력          │
-└───────┬───────┘      └───────┬───────┘
-        │                      │
-        └──────────┬───────────┘
-                   ▼
-              ┌─────────┐
-              │  종료   │
-              └─────────┘
-```
+![순서도][https://mblogthumb-phinf.pstatic.net/MjAyMDExMjNfMTEz/MDAxNjA2MTAwMzAwOTM0.HvMxWrpKKh2FnrwJ6p6Whj9QHuAfcjtqAkmejtgkCS8g.f7ecuGQZ7Gsv6pJHfwmmUBlnx8OhSlZJiNiKDJpjCiIg.PNG.pk3152/Screenshot_11.png?type=w800]
 
 ## 의사코드(Pseudo Code)
 
@@ -53,9 +23,9 @@
 ```
 시작
     나이를 입력받는다
-    만약 나이가 18 이상이면
+    IF 나이가 18 이상이면
         "성인입니다"를 출력한다
-    그렇지 않으면
+    ELSE
         "미성년자입니다"를 출력한다
 종료
 ```
@@ -85,13 +55,13 @@ else:
 ```
 시작
     점수를 입력받는다
-    만약 점수가 90점 이상이면
+    IF 점수가 90점 이상이면
         학점 A를 부여한다
-    아니면 만약 점수가 80점 이상이면
+    ELSE IF 점수가 80점 이상이면
         학점 B를 부여한다
-    아니면 만약 점수가 70점 이상이면
+    ELSE IF 점수가 70점 이상이면
         학점 C를 부여한다
-    아니면 만약 점수가 60점 이상이면
+    ELSE IF 점수가 60점 이상이면
         학점 D를 부여한다
     그렇지 않으면
         학점 F를 부여한다
