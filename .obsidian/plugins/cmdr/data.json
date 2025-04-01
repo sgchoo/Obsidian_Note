@@ -11,7 +11,7 @@
   "pageHeader": [
     {
       "id": "templater-obsidian:templates/summary_template.md.md",
-      "icon": "templater-icon",
+      "icon": "lucide-square-bottom-dashed-scissors",
       "name": "Templater: Insert templates/summary_template.md.md",
       "mode": "any"
     },
