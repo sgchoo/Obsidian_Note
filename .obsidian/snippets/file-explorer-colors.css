@@ -7,7 +7,7 @@
   
   /* 특정 폴더 스타일링 */
   .nav-folder-title[data-path="Nest.js"] {
-    color: #fc2a2a !important;
+    color: #ff0066 !important;
     font-weight: bold;
   }
   
@@ -18,6 +18,11 @@
 
   .nav-folder-title[data-path="Lecture"] {
     color: #16AA52 !important;
+    font-weight: bold;
+  }
+
+  .nav-folder-title[data-path="Lecture/FastCampus"] {
+    color: #fc2a2a !important;
     font-weight: bold;
   }
   
