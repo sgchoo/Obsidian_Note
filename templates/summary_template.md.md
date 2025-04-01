@@ -1,4 +1,4 @@
-<%*const GEMINI_API_KEY="여러분의 GEMINI API KEY"%>
+<%*const GEMINI_API_KEY="**AIzaSyALDzRiwn0Wf4adbYnUNcUBskrqwyW3gr0**"%>
  
 <%*
 // 요약 프롬프트
