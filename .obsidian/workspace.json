@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nest.js/관리자 계정 활성화 엔드포인트 보안 대안 분석.md",
+                "file": "Nest.js/Prisma orderBy case 문법 오류 및 해결 방법.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "관리자 계정 활성화 엔드포인트 보안 대안 분석"
+              "title": "Prisma orderBy case 문법 오류 및 해결 방법"
             }
           }
         ]
@@ -125,7 +125,74 @@
   "right": {
     "id": "fcffdb68ec9be87e",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "4404e5640d498c93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd822cc98bd1cc46",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "1bb2204fa679c4a2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "60b1d6d783b9b08e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "52f4e496586ae5bd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
@@ -142,8 +209,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1f3549acd4632738",
+  "active": "9e52b8d9b671f846",
   "lastOpenFiles": [
+    "Nest.js/Prisma orderBy case 문법 오류 및 해결 방법.md",
+    "Nest.js/관리자 계정 활성화 엔드포인트 보안 대안 분석.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/ch.3-1 조건 그리고 알고리즘과 의사코드_1.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/ch.2-2 변수와 연산자에 대해_2.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/part.1 기초 프로그래밍.md",
@@ -156,7 +225,6 @@
     "templates/summary_template_lecture.md",
     "Untitled.md",
     "templates",
-    "Nest.js/관리자 계정 활성화 엔드포인트 보안 대안 분석.md",
     "Obsidian Basic.md",
     "Obsidian Basic/3. Git 플러그인으로 자동 동기화 설정하기.md",
     "Obsidian Basic/2. 파일 탐색기에 색상 적용.md",
