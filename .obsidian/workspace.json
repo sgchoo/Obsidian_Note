@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/ch.3-2 조건 그리고 알고리즘과 의사코드_2.md",
+                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/ch.3-3 조건 그리고 알고리즘과 의사코드_3.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ch.3-2 조건 그리고 알고리즘과 의사코드_2"
+              "title": "ch.3-3 조건 그리고 알고리즘과 의사코드_3"
             }
           }
         ]
@@ -211,8 +211,9 @@
   },
   "active": "1f3549acd4632738",
   "lastOpenFiles": [
-    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/ch.3-1 조건 그리고 알고리즘과 의사코드_1.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/ch.3-2 조건 그리고 알고리즘과 의사코드_2.md",
+    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/ch.3-3 조건 그리고 알고리즘과 의사코드_3.md",
+    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/ch.3-1 조건 그리고 알고리즘과 의사코드_1.md",
     "Lecture/FastCampus/FastCampus.md",
     "Nest.js/SMTP설정 및 Mailer Module.md",
     "Nest.js/관리자 계정 활성화 엔드포인트 보안 대안 분석.md",
