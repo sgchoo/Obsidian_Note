@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nest.js/k6/k6 테스트 결과 분석.md",
+                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "k6 테스트 결과 분석"
+              "title": "무제"
             }
           }
         ]
@@ -210,8 +210,9 @@
   },
   "active": "af434bff8f393326",
   "lastOpenFiles": [
-    "Nest.js/k6/성능 테스트 가이드.md",
     "Nest.js/k6/k6 테스트 결과 분석.md",
+    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)/무제.md",
+    "Nest.js/k6/성능 테스트 가이드.md",
     "Nest.js/k6/K6 설정 및 사용 가이드.md",
     "Nest.js/k6",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)/ch.2-2 객체지향 시작하기_메소드 정의와 작성.md",
@@ -239,7 +240,6 @@
     "templates",
     "Obsidian Basic.md",
     "Obsidian Basic/3. Git 플러그인으로 자동 동기화 설정하기.md",
-    "Obsidian Basic/2. 파일 탐색기에 색상 적용.md",
     "무제.canvas",
     "Lecture/Inflearn",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능",
