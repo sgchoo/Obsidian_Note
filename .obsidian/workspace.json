@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nest.js/관리자 계정 활성화 엔드포인트 보안 대안 분석.md",
+                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/한번에 끝내는 CS & 인공지능.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "관리자 계정 활성화 엔드포인트 보안 대안 분석"
+              "title": "한번에 끝내는 CS & 인공지능"
             }
           }
         ]
@@ -210,9 +210,9 @@
   },
   "active": "af434bff8f393326",
   "lastOpenFiles": [
+    "Nest.js/관리자 계정 활성화 엔드포인트 보안 대안 분석.md",
     "Networks/VPC 및 Subnet.md",
     "Nest.js.md",
-    "Nest.js/관리자 계정 활성화 엔드포인트 보안 대안 분석.md",
     "Nest.js/N+1문제.md",
     "Nest.js/Prisma orderBy case 문법 오류 및 해결 방법.md",
     "Nest.js/SMTP설정 및 Mailer Module.md",
