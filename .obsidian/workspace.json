@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)/ch.3-2 메소드 오버라이딩과 상속.md",
+                "file": "Networks/VPC 및 Subnet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.3-2 메소드 오버라이딩과 상속"
+              "title": "VPC 및 Subnet"
             }
           }
         ]
@@ -208,10 +208,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af434bff8f393326",
+  "active": "448cb2f00a9b02f8",
   "lastOpenFiles": [
-    "Nest.js.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)/ch.3-2 메소드 오버라이딩과 상속.md",
+    "Networks/VPC 및 Subnet.md",
+    "Networks",
+    "Nest.js.md",
     "Nest.js/N+1문제.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)/ch.3-1 객체와 클래스 이해하기_객체와 클래스 구성.md",
     "Nest.js/k6/k6 테스트 결과 분석.md",
@@ -238,14 +240,12 @@
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/ch.2-1 변수와 연산자에 대해_1.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍",
     "templates/summary_template_thesis.md",
-    "templates/summary_template_lecture.md",
     "templates",
     "무제.canvas",
     "Lecture/Inflearn",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능",
     "Lecture/FastCampus",
     "Lecture",
-    "Obsidian Basic",
-    "Nest.js"
+    "Obsidian Basic"
   ]
 }
