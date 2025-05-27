@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "ch.9-1 디자인 패턴 이해"
             }
+          },
+          {
+            "id": "1aca69adab7909ef",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "29053ee461645d2a",
@@ -208,7 +221,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af434bff8f393326",
+  "active": "1aca69adab7909ef",
   "lastOpenFiles": [
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)/ch.7 상속과 다형성.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)/ch.9-1 디자인 패턴 이해.md",
