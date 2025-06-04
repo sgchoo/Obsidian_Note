@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code - 찰스 펫졸드/ch.1 친한 친구와의 대화.md",
+                "file": "Code - 찰스 펫졸드/ch.2 부호와 조합.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.1 친한 친구와의 대화"
+              "title": "ch.2 부호와 조합"
             }
           }
         ]
@@ -187,8 +187,9 @@
   },
   "active": "af434bff8f393326",
   "lastOpenFiles": [
-    "Code - 찰스 펫졸드/Code - 찰스 펫졸드.md",
     "Code - 찰스 펫졸드/ch.1 친한 친구와의 대화.md",
+    "Code - 찰스 펫졸드/ch.2 부호와 조합.md",
+    "Code - 찰스 펫졸드/Code - 찰스 펫졸드.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.2-3 트랜잭션과 동시성.md",
     "Code - 찰스 펫졸드",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.2-2 관계대수.md",
@@ -216,7 +217,6 @@
     "Nest.js/k6/성능 테스트 가이드.md",
     "Nest.js/k6/K6 설정 및 사용 가이드.md",
     "Nest.js/k6",
-    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)/ch.2-2 객체지향 시작하기_메소드 정의와 작성.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍",
     "templates",
