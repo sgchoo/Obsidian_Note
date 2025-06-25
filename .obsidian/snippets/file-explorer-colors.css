@@ -10,6 +10,11 @@
     color: #ff0066 !important;
     font-weight: bold;
   }
+
+  .nav-folder-title[data-path="Nest.js/k6"] {
+    color: #3a4091 !important;
+    font-weight: bold;
+  }
   
   .nav-folder-title[data-path="Obsidian Basic"] {
     color: #842dce !important;
@@ -27,7 +32,7 @@
   }
 
   .nav-folder-title[data-path="Lecture/FastCampus/한번에 끝내는 CS & 인공지능"] {
-    color: #90a6a1 !important;
+    color: #3a4091 !important;
     font-weight: bold;
   }
 
@@ -47,7 +52,7 @@
   }
 
   .nav-folder-title[data-path="Book/Code - 찰스 펫졸드"] {
-    color: #90a6a1 !important;
+    color: #3a4091 !important;
     font-weight: bold;
   }
   
