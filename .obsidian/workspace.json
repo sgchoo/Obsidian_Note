@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.2-2 관계대수.md",
+                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.2-3 트랜잭션과 동시성.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.2-2 관계대수"
+              "title": "ch.2-3 트랜잭션과 동시성"
             }
           }
         ]
@@ -187,12 +187,12 @@
   },
   "active": "af434bff8f393326",
   "lastOpenFiles": [
+    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.2-2 관계대수.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.2-1 관계형 데이터 모델.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.1 데이터베이스 개념 및 특징.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.3-2 엔티티 타입 및 속성 개념.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.2-5 데이터베이스 보안과 권한 관리.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/part3. 데이터베이스 개론.md",
-    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.2-2 관계대수.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.3-1 데이터베이스 모델링 개념.md",
     "Code - 찰스 펫졸드/ch.1 친한 친구와의 대화.md",
     "Code - 찰스 펫졸드/ch.7 전신과 릴레이.md",
