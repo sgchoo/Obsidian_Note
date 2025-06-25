@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code - 찰스 펫졸드/ch.7 전신과 릴레이.md",
+                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch. 2-5 데이터베이스 보안과 권한 관리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.7 전신과 릴레이"
+              "title": "ch. 2-5 데이터베이스 보안과 권한 관리"
             }
           }
         ]
@@ -187,8 +187,9 @@
   },
   "active": "af434bff8f393326",
   "lastOpenFiles": [
-    "Code - 찰스 펫졸드/ch.6 논리와 스위치.md",
     "Code - 찰스 펫졸드/ch.7 전신과 릴레이.md",
+    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch. 2-5 데이터베이스 보안과 권한 관리.md",
+    "Code - 찰스 펫졸드/ch.6 논리와 스위치.md",
     "Code - 찰스 펫졸드/ch.5 가까운 거리에서 이야기하기.md",
     "Code - 찰스 펫졸드/ch.4 전등을 분해해 봅시다..md",
     "Code - 찰스 펫졸드/ch.3 점자와 이진 부호.md",
@@ -214,7 +215,6 @@
     "Nest.js.md",
     "Nest.js/N+1문제.md",
     "Nest.js/Prisma orderBy case 문법 오류 및 해결 방법.md",
-    "Nest.js/SMTP설정 및 Mailer Module.md",
     "Networks",
     "Nest.js/k6",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)",
