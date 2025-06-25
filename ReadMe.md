@@ -8,4 +8,5 @@
 ### Nest.js
 ### FastCampus
 - 한번에 끝내는 CS & 인공지능
-### Code - 찰스 펫졸드() 
+### Book
+- Code - 찰스 펫졸드
