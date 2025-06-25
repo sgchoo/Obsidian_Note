@@ -30,6 +30,21 @@
     color: #16AA52 !important;
     font-weight: bold;
   }
+
+  .nav-folder-title[data-path="Networks"] {
+    color: #49b89e !important;
+    font-weight: bold;
+  }
+
+  .nav-folder-title[data-path="Book"] {
+    color: #091ede !important;
+    font-weight: bold;
+  }
+
+  .nav-folder-title[data-path="Book/Code - 찰스 펫졸드"] {
+    color: #a0a2b8 !important;
+    font-weight: bold;
+  }
   
   /* 특정 파일 이름으로 스타일링
   .nav-file-title[data-path$="README.md"] {
