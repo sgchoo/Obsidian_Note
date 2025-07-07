@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.2-5 서로소 집합과 파티션.md",
+                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.2-5 서로소 집합과 파티션"
+              "title": "무제"
             }
           }
         ]
@@ -187,8 +187,9 @@
   },
   "active": "af434bff8f393326",
   "lastOpenFiles": [
-    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.2-4 곱집합.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.2-5 서로소 집합과 파티션.md",
+    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/무제.md",
+    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.2-4 곱집합.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.2-3 집합의 연산.md",
     "Nest.js/k6/성능 테스트 가이드.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.2-2 집합의 포함관계.md",
@@ -214,7 +215,6 @@
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.2-3 트랜잭션과 동시성.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.2-2 관계대수.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.2-1 관계형 데이터 모델.md",
-    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.1 데이터베이스 개념 및 특징.md",
     "Book/Code - 찰스 펫졸드",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초",
     "Networks",
