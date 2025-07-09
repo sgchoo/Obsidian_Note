@@ -25,21 +25,44 @@
         ]
       },
       {
-        "id": "ef5053af71f9f298",
-        "type": "tabs",
+        "id": "1916b996839d5f06",
+        "type": "split",
         "dimension": 36.51551312649165,
         "children": [
           {
-            "id": "9e52b8d9b671f846",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
+            "id": "ef5053af71f9f298",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9e52b8d9b671f846",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "그래프 뷰"
+                }
+              }
+            ]
+          },
+          {
+            "id": "38121ccb5c754d32",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "43fd33daa2909622",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "새 탭"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -185,10 +208,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af434bff8f393326",
+  "active": "43fd33daa2909622",
   "lastOpenFiles": [
-    "DBMS/DBMS.md",
     "DBMS/PostgreSQL 복제 및 이원화.md",
+    "DBMS/DBMS.md",
     "Nest.js/k6/k6 테스트 결과 분석.md",
     "DBMS",
     "Nest.js/무제.md",
