@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nest.js/k6/k6 테스트 결과 분석.md",
+                "file": "DBMS/PostgreSQL 복제 및 이원화.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "k6 테스트 결과 분석"
+              "title": "PostgreSQL 복제 및 이원화"
             }
           }
         ]
@@ -187,10 +187,14 @@
   },
   "active": "af434bff8f393326",
   "lastOpenFiles": [
+    "DBMS/DBMS.md",
+    "DBMS/PostgreSQL 복제 및 이원화.md",
+    "Nest.js/k6/k6 테스트 결과 분석.md",
+    "DBMS",
+    "Nest.js/무제.md",
     "Nest.js/k6/성능 테스트 가이드.md",
     "Nest.js/k6/k6 설정 및 사용 가이드.md",
     "Nest.js/k6/k6.md",
-    "Nest.js/k6/k6 테스트 결과 분석.md",
     "Nest.js/SMTP설정 및 Mailer Module.md",
     "Nest.js/Prisma orderBy case 문법 오류 및 해결 방법.md",
     "Nest.js/N+1문제.md",
@@ -210,10 +214,7 @@
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.1-4 방정식의 풀이.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.1-2 대수학적 특징.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.1-3 수의 대수학적 특징.md",
-    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/part4. 기초대수학.md",
-    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/한번에 끝내는 CS & 인공지능.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학",
-    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/ch.3-7 성능을 고려한 데이터 모델링.md",
     "Book",
     "Book/Code - 찰스 펫졸드",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초",
@@ -222,7 +223,6 @@
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍",
     "templates",
-    "무제.canvas",
-    "Lecture/Inflearn"
+    "무제.canvas"
   ]
 }
