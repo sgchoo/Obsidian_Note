@@ -1,6 +1,7 @@
 [[part4. 기초대수학]]
 
-# 함수의 평행이동 (Translation)
+# 함수의 이동
+## 함수의 평행이동 (Translation)
 
 ## 개념 정리
 
