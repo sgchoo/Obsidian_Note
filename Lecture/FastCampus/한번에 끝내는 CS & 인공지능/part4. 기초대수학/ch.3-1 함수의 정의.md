@@ -77,8 +77,8 @@ X → Function → Y
 
 ## 요약
 
-|함수 종류|조건|특징|
-|---|---|---|
-|Injective|서로 다른 x → 서로 다른 y|일대일 매핑|
-|Surjective|모든 y에 대응하는 x 존재|전체 커버|
-|Bijective|Injective + Surjective|완전 대응|
+| 함수 종류      | 조건                     | 특징     |
+| ---------- | ---------------------- | ------ |
+| Injective  | 서로 다른 x → 서로 다른 y      | 일대일 매핑 |
+| Surjective | 모든 y에 대응하는 x 존재        | 전체 커버  |
+| Bijective  | Injective + Surjective | 완전 대응  |
