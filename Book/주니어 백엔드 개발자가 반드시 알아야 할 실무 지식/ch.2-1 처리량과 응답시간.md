@@ -10,4 +10,8 @@
 	- TTLB: 응답 데이터 중 마지막 바이트가 도착한 시간
 	=> 데이터 특성과 네트워크 환경을 고려해 적절한 것을 사용해야 한다.
 - 서버 개발자는 주로 서버의 처리시간(외부/내부 API 호출, DB SQL, 로직 등)으로 응답 시간을 확인한다.
-- 주로 API 호출(특히 외부 API)과 DB SQL tlfgod tlr
+- 주로 API 호출(특히 외부 API)과 DB SQL 실행 시간이 큰 비중을 차지한다.
+
+## 처리량
+- 처리량은 **TPS**(transaction per second)와 RPS(request per second)로 나타낸다.
+- 최대 TPS 이상의 
