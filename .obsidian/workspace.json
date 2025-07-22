@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.3-3 우함수와 기함수.md",
+                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.1 코딩을 할 수 있게 된 것일 뿐.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.3-3 우함수와 기함수"
+              "title": "ch.1 코딩을 할 수 있게 된 것일 뿐"
             }
           }
         ]
@@ -208,11 +208,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "448cb2f00a9b02f8",
+  "active": "af434bff8f393326",
   "lastOpenFiles": [
-    "Book/무제",
-    "Book/무제.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.1 코딩을 할 수 있게 된 것일 뿐.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.3-3 우함수와 기함수.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식",
+    "Book/무제.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.3-2 함수의 이동.md",
     "Book/Code - 찰스 펫졸드/ch.9 우리가 사용하는 열 개의 숫자들.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.1-2 대수학적 특징.md",
@@ -236,7 +238,6 @@
     "Nest.js/k6/k6 설정 및 사용 가이드.md",
     "Nest.js/k6/k6.md",
     "Nest.js/SMTP설정 및 Mailer Module.md",
-    "Nest.js/Prisma orderBy case 문법 오류 및 해결 방법.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학",
     "Book",
     "Book/Code - 찰스 펫졸드",
@@ -245,7 +246,6 @@
     "Nest.js/k6",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍",
-    "templates",
     "무제.canvas"
   ]
 }
