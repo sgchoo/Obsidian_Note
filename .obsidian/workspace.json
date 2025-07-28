@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/part5. 이산수학.md",
+                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.1-1 100명의 죄수 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "part5. 이산수학"
+              "title": "ch.1-1 100명의 죄수 문제"
             }
           }
         ]
@@ -210,11 +210,12 @@
   },
   "active": "af434bff8f393326",
   "lastOpenFiles": [
+    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/part5. 이산수학.md",
+    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.1-1 100명의 죄수 문제.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part1. 기초 프로그래밍/part.1 기초 프로그래밍.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)/part2. 객체지향 프로그래밍 (Java).md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/part3. 데이터베이스 개론.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/part4. 기초대수학.md",
-    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/part5. 이산수학.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2-2 서버 성능 개선 기초.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2-1 처리량과 응답시간.md",
@@ -237,7 +238,6 @@
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.2-6 구간(Intervals).md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.3-1 함수의 정의.md",
     "DBMS/PostgreSQL 복제 및 이원화.md",
-    "무제.md",
     "DBMS",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학",
     "Book",
