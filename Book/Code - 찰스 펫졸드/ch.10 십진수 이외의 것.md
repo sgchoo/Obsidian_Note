@@ -1,4 +1,4 @@
-# Chapter 10: 우리가 사용하는 열 개의 숫자들 (A Ten-Symbol System)
+# Chapter 10: 십진수 이외의 것 (Alternative to Decimal)
 
 ## 📌 핵심 개념
 
