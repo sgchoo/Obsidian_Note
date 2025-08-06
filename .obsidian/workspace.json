@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book/Code - 찰스 펫졸드/ch.11 비트,비트,비트.md",
+                "file": "Book/Code - 찰스 펫졸드/ch.12 바이트와 16진수.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.11 비트,비트,비트"
+              "title": "ch.12 바이트와 16진수"
             }
           }
         ]
@@ -208,12 +208,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "448cb2f00a9b02f8",
+  "active": "af434bff8f393326",
   "lastOpenFiles": [
+    "Book/Code - 찰스 펫졸드/ch.11 비트,비트,비트.md",
     "Book/Code - 찰스 펫졸드/ch.12 바이트와 16진수.md",
     "Book/Code - 찰스 펫졸드/ch.12 바이트와 16진수.md.tmp.32540.1754483368427",
     "Book/Code - 찰스 펫졸드/ch.10 십진수 이외의 것.md",
-    "Book/Code - 찰스 펫졸드/ch.11 비트,비트,비트.md",
     "Book/Code - 찰스 펫졸드/ch.9 우리가 사용하는 열 개의 숫자들.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.1-1 이산 수학 소개.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/part5. 이산수학.md",
