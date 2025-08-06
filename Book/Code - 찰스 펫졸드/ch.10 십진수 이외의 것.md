@@ -1,4 +1,5 @@
-[[]]
+[[Code - 찰스 펫졸드]]
+
 # Chapter 10: 십진수 이외의 것 (Alternative to Decimal)
 
 ## 📌 핵심 개념

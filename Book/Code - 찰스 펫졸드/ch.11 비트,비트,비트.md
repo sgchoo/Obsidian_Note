@@ -1,3 +1,5 @@
+[[Code - 찰스 펫졸드]]
+
 # Chapter 11: 비트, 비트, 비트 (Bits, Bits, Bits)
 
 ## 📌 핵심 개념

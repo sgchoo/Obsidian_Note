@@ -1,3 +1,5 @@
+[[Code - 찰스 펫졸드]]
+
 # Chapter 14: 논리 게이트로 덧셈하기 (Adding with Logic Gates)
 
 ## 📌 핵심 개념

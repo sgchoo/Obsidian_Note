@@ -1,3 +1,5 @@
+[[Code - 찰스 펫졸드]]
+
 # Chapter 12: 바이트와 16진수 (Bytes and Hexadecimal)
 
 ## 📌 핵심 개념

@@ -1,3 +1,5 @@
+[[Code - 찰스 펫졸드]]
+
 # Chapter 13: ASCII에서 유니코드까지 (From ASCII to Unicode)
 
 ## 📌 핵심 개념

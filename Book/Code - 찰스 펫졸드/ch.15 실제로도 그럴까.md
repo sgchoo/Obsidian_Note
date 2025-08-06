@@ -1,3 +1,5 @@
+[[Code - 찰스 펫졸드]]
+
 # Chapter 15: 실제로도 그럴까? (But What About the Real World?)
 
 ## 📌 핵심 개념
