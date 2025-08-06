@@ -1,3 +1,4 @@
+[[]]
 # Chapter 10: 십진수 이외의 것 (Alternative to Decimal)
 
 ## 📌 핵심 개념
