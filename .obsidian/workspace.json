@@ -208,8 +208,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af434bff8f393326",
+  "active": "448cb2f00a9b02f8",
   "lastOpenFiles": [
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.1 들어가며",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까",
     "Book/Code - 찰스 펫졸드/ch.14 논리 게이트로 덧셈하기.md",
     "Book/Code - 찰스 펫졸드/ch.15 실제로도 그럴까.md",
     "Book/Code - 찰스 펫졸드/ch.13 ASCII에서 유니코드까지.md",
@@ -229,23 +231,21 @@
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part2. 객체지향 프로그래밍 (Java)/part2. 객체지향 프로그래밍 (Java).md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초/part3. 데이터베이스 개론.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/part4. 기초대수학.md",
-    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2-2 서버 성능 개선 기초.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-2 서버 성능 개선 기초.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학",
-    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2-1 처리량과 응답시간.md",
-    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.1 코딩을 할 수 있게 된 것일 뿐.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-1 처리량과 응답시간.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.1 들어가며/ch.1 코딩을 할 수 있게 된 것일 뿐.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.3-3 우함수와 기함수.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식",
     "Book/무제.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.3-2 함수의 이동.md",
-    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학/ch.1-2 대수학적 특징.md",
     "DBMS",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part4. 기초대수학",
     "Book",
     "Book/Code - 찰스 펫졸드",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part3. 데이터베이스 기초",
     "Networks",
-    "Nest.js/k6",
     "무제.canvas"
   ]
 }
