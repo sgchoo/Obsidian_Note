@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "ch.3-5 실패와 트랜잭션 고려하기"
             }
+          },
+          {
+            "id": "eff1b828c11ef7d0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.9.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "1916b996839d5f06",
@@ -198,6 +211,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:새 베이스 생성하기": false,
       "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -208,7 +222,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "448cb2f00a9b02f8",
+  "active": "eff1b828c11ef7d0",
   "lastOpenFiles": [
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.4 외부 연동이 문제일 때 살펴봐야 할 것들",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리/ch.3-4 알아두면 좋을 몇 가지 주의사항.md",
