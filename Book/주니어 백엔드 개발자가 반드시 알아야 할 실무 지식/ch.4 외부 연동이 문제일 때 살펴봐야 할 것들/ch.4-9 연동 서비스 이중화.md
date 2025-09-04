@@ -56,6 +56,8 @@
 
 ### 1. Active-Active 패턴
 
+java
+
 ```java
 @Component
 public class ActiveActiveRedundantService {
@@ -108,6 +110,8 @@ public class ActiveActiveRedundantService {
 
 ### 2. Active-Standby 패턴
 
+java
+
 ```java
 @Component
 public class ActiveStandbyRedundantService {
@@ -155,6 +159,8 @@ public class ActiveStandbyRedundantService {
 ```
 
 ### 3. Multi-Vendor 패턴
+
+java
 
 ```java
 @Component
@@ -209,6 +215,8 @@ public class MultiVendorRedundantService {
 
 ### 1. 부하 분산 기반 라우팅
 
+java
+
 ```java
 @Component
 public class LoadBalancedRouter {
@@ -236,6 +244,8 @@ public class LoadBalancedRouter {
 
 ### 2. 지역 기반 라우팅
 
+java
+
 ```java
 @Component
 public class GeographicRouter {
@@ -258,6 +268,8 @@ public class GeographicRouter {
 ```
 
 ### 3. 비용 기반 라우팅
+
+java
 
 ```java
 @Component 
@@ -286,6 +298,8 @@ public class CostOptimizedRouter {
 
 ### 1. 이중화 상태 모니터링
 
+java
+
 ```java
 @Component
 public class RedundancyMonitoring {
@@ -296,5 +310,225 @@ public class RedundancyMonitoring {
             redundancyGroupManager.getAllServiceGroups();
             
         serviceGroups.forEach((groupName, services) -> {
-            long healthyCount = services.stre
+            long healthyCount = services.stream()
+                .filter(ServiceHealthStatus::isHealthy)
+                .count();
+                
+            double healthRatio = (double) healthyCount / services.size();
+            
+            // 메트릭 기록
+            Gauge.builder("redundancy.health.ratio")
+                .tag("group", groupName)
+                .register(meterRegistry, () -> healthRatio);
+            
+            // 임계치 알림
+            if (healthRatio < 0.5) {
+                alertService.sendCriticalAlert(
+                    String.format("이중화 그룹 %s의 가용 서비스가 50%% 미만입니다", groupName)
+                );
+            }
+        });
+    }
+}
 ```
+
+### 2. 자동 복구 시스템
+
+java
+
+```java
+@Component
+public class AutoRecoverySystem {
+    
+    @EventListener
+    public void handleServiceRecovery(ServiceRecoveryEvent event) {
+        String serviceName = event.getServiceName();
+        RedundancyGroup group = redundancyGroupManager.getGroup(serviceName);
+        
+        if (group.getStrategy() == RedundancyStrategy.ACTIVE_STANDBY) {
+            // Active-Standby에서는 Primary 복구 시 점진적 전환
+            scheduleGradualSwitchback(serviceName);
+        } else if (group.getStrategy() == RedundancyStrategy.ACTIVE_ACTIVE) {
+            // Active-Active에서는 즉시 로드밸런싱에 포함
+            loadBalancer.addService(serviceName);
+        }
+    }
+    
+    private void scheduleGradualSwitchback(String serviceName) {
+        // 5분간 점진적으로 트래픽을 Primary로 전환
+        scheduler.scheduleAtFixedRate(() -> {
+            double currentRatio = trafficRouter.getPrimaryTrafficRatio(serviceName);
+            if (currentRatio < 1.0) {
+                trafficRouter.increasePrimaryTraffic(serviceName, 0.2); // 20%씩 증가
+            }
+        }, 1, 1, TimeUnit.MINUTES);
+    }
+}
+```
+
+## 테스트 전략
+
+### 1. Chaos Engineering
+
+java
+
+```java
+@Component
+public class ChaosTestingService {
+    
+    @EventListener
+    @ConditionalOnProperty("chaos.testing.enabled")
+    public void simulateServiceFailure(ChaosTestEvent event) {
+        String targetService = event.getTargetService();
+        Duration failureDuration = event.getFailureDuration();
+        
+        log.info("Chaos 테스트 시작: {} 서비스 {} 동안 장애 시뮬레이션", 
+            targetService, failureDuration);
+        
+        // 서비스 강제 실패
+        serviceRegistry.markAsDown(targetService);
+        
+        // 지정된 시간 후 복구
+        scheduler.schedule(() -> {
+            serviceRegistry.markAsUp(targetService);
+            log.info("Chaos 테스트 종료: {} 서비스 복구", targetService);
+        }, failureDuration.toMillis(), TimeUnit.MILLISECONDS);
+    }
+}
+```
+
+### 2. 이중화 시나리오 테스트
+
+java
+
+```java
+@SpringBootTest
+class RedundancyScenarioTest {
+    
+    @Test
+    @DisplayName("Primary 서비스 장애 시 Standby로 자동 전환")
+    void shouldFailoverToStandbyOnPrimaryFailure() {
+        // Given: Primary 서비스가 정상 상태
+        when(primaryService.isHealthy()).thenReturn(true);
+        when(standbyService.isHealthy()).thenReturn(true);
+        
+        // When: Primary 서비스 장애 발생
+        when(primaryService.call(any())).thenThrow(new ServiceUnavailableException());
+        
+        // Then: Standby 서비스로 자동 전환
+        TestRequest request = new TestRequest("test");
+        TestResponse response = redundantService.call(request);
+        
+        verify(standbyService).call(request);
+        assertThat(response).isNotNull();
+    }
+    
+    @Test
+    @DisplayName("모든 서비스 장애 시 적절한 예외 처리")
+    void shouldThrowExceptionWhenAllServicesFail() {
+        // Given: 모든 서비스 장애
+        when(primaryService.call(any())).thenThrow(new ServiceUnavailableException());
+        when(standbyService.call(any())).thenThrow(new ServiceUnavailableException());
+        
+        // When & Then: 적절한 예외 발생
+        assertThatThrownBy(() -> redundantService.call(new TestRequest("test")))
+            .isInstanceOf(AllServicesFailedException.class);
+    }
+}
+```
+
+## 실무 의사결정 가이드
+
+### 이중화 도입 결정 플로우차트
+
+```
+서비스 이중화 검토 프로세스
+┌─────────────────────────────────┐
+│ 1. 트래픽 임계치 확인              │
+│ (일 100만+ 요청)                 │
+└─────────┬───────────────────────┘
+          │ Yes
+          ↓
+┌─────────────────────────────────┐
+│ 2. 핵심 기능 여부 확인            │
+│ (Mission/Business Critical)     │
+└─────────┬───────────────────────┘
+          │ Yes
+          ↓
+┌─────────────────────────────────┐
+│ 3. ROI 분석                     │
+│ (비용 vs 장애 손실)              │
+└─────────┬───────────────────────┘
+          │ ROI > 30%
+          ↓
+┌─────────────────────────────────┐
+│ 4. 이중화 방식 선택               │
+│ - Active-Active                 │
+│ - Active-Standby                │  
+│ - Multi-Vendor                  │
+└─────────────────────────────────┘
+```
+
+### 서비스별 이중화 전략 매트릭스
+
+java
+
+```java
+@Component
+public class RedundancyStrategyRecommender {
+    
+    public RedundancyStrategy recommend(ServiceProfile profile) {
+        if (profile.getCriticalityLevel() == CriticalityLevel.MISSION_CRITICAL) {
+            if (profile.getDailyTraffic() > 10_000_000) {
+                return RedundancyStrategy.ACTIVE_ACTIVE;
+            } else {
+                return RedundancyStrategy.ACTIVE_STANDBY;
+            }
+        }
+        
+        if (profile.getCriticalityLevel() == CriticalityLevel.BUSINESS_CRITICAL) {
+            if (profile.getVendorLockInRisk() > 0.7) {
+                return RedundancyStrategy.MULTI_VENDOR;
+            } else {
+                return RedundancyStrategy.ACTIVE_STANDBY;
+            }
+        }
+        
+        return RedundancyStrategy.CIRCUIT_BREAKER_ONLY;
+    }
+}
+```
+
+## 실무 체크리스트
+
+### 이중화 도입 검토
+
+- [ ]  일일 트래픽이 임계치(100만 요청) 초과
+- [ ]  서비스 핵심 기능 여부 분석 완료
+- [ ]  ROI 분석 및 비용 정당화 검토
+- [ ]  기술팀 역량 및 운영 복잡도 고려
+- [ ]  비즈니스 승인 및 예산 확보
+
+### 설계 시 고려사항
+
+- [ ]  적절한 이중화 패턴 선택
+- [ ]  라우팅 전략 정의
+- [ ]  헬스체크 및 장애 감지 메커니즘
+- [ ]  자동 복구 시나리오 설계
+- [ ]  모니터링 및 알림 체계
+
+### 구현 시 확인사항
+
+- [ ]  각 서비스별 이중화 구현
+- [ ]  로드밸런서 설정 및 테스트
+- [ ]  Circuit Breaker와 연계 구현
+- [ ]  메트릭 수집 및 대시보드 구성
+- [ ]  장애 시나리오 테스트
+
+### 운영 시 모니터링
+
+- [ ]  이중화 그룹별 가용성 추적
+- [ ]  자동 전환 성공률 모니터링
+- [ ]  비용 효율성 정기 검토
+- [ ]  Chaos Engineering 정기 실시
+- [ ]  이중화 전략 최적화 및 튜닝
