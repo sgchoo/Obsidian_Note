@@ -102,12 +102,10 @@ CREATE INDEX idx_posts_optimized ON posts (
 ### 2.4 커버링 인덱스 (Covering Index)
 
 #### 정의
-
 - 쿼리 실행에 필요한 **모든 컬럼을 포함**한 인덱스
 - **SELECT, WHERE, ORDER BY, GROUP BY**에 사용되는 모든 컬럼이 인덱스에 포함
 
 #### 장점
-
 - **실제 테이블 데이터 조회 불필요** → 디스크 I/O 감소
 - **성능 대폭 향상** 가능
 
@@ -132,7 +130,6 @@ CREATE INDEX idx_users_covering ON users (
 ```
 
 #### 주의사항
-
 - **인덱스 크기 증가** → 메모리 사용량 증가
 - **INSERT/UPDATE 성능 저하** → 인덱스 유지 비용 증가
 - **필요한 경우에만 선택적 적용**
@@ -144,12 +141,10 @@ CREATE INDEX idx_users_covering ON users (
 ### 3.1 스케일링 전략
 
 #### 긴급 상황 대응
-
 - **Scale-up (수직 확장)**: 즉시 응답시간↓, 처리량↑
 - **Scale-out (수평 확장)**: 비용 효율적, TPS 향상
 
 #### ⚠️ 중요한 주의사항
-
 > **DB에 문제가 있는 상황에서 서버만 추가하면 불에 기름을 붓는 격**
 > 
 > 반드시 DB 성능 문제를 먼저 해결한 후 스케일링 진행
@@ -157,7 +152,6 @@ CREATE INDEX idx_users_covering ON users (
 ### 3.2 DB 커넥션 풀 관리
 
 #### 커넥션 풀의 필요성
-
 - 직접 연결 시 **연결/해제 시간이 0.5~1초**로 매우 비효율적
 - 커넥션 풀 사용으로 연결 재사용
 
@@ -190,13 +184,11 @@ CREATE INDEX idx_users_covering ON users (
 |**리모트 캐시**|데이터 공유 가능<br>일관성 유지|네트워크 오버헤드<br>추가 인프라 필요|사용자 세션<br>실시간 데이터|
 
 #### 캐시 전략 선택 가이드
-
 - **읽기 전용 데이터**: 로컬 캐시 우선 고려
 - **자주 변경되는 데이터**: 리모트 캐시 또는 캐시 TTL 짧게 설정
 - **대용량 데이터**: 파티셔닝된 리모트 캐시
 
 #### 🔴 캐시 관리의 핵심
-
 > **적절한 시점에 캐시를 무효화(삭제)**하는 것이 가장 중요
 > 
 > 캐시 무효화 전략을 먼저 설계한 후 캐시 도입
@@ -208,14 +200,12 @@ CREATE INDEX idx_users_covering ON users (
 ### 4.1 가비지 컬렉션(GC) 최적화
 
 #### GC의 양면성
-
 - **장점**: 메모리 관리 자동화
 - **단점**: GC 실행 중 애플리케이션 일시 중단
 
 #### 메모리 사용량 최적화 방법
 
 ##### 1. 페이지네이션
-
 ```sql
 -- Before: 전체 데이터 조회 (메모리 과부하)
 SELECT * FROM large_table WHERE condition;
@@ -228,7 +218,6 @@ LIMIT 100 OFFSET 0;
 ```
 
 ##### 2. 스트림 처리
-
 ```java
 // Before: 전체 파일을 메모리에 로드
 byte[] fileContent = Files.readAllBytes(filePath);
@@ -241,7 +230,6 @@ try (InputStream inputStream = Files.newInputStream(filePath);
 ```
 
 ##### 3. 배치 처리
-
 ```java
 // Before: 한 번에 전체 처리
 List<Data> allData = repository.findAll();
@@ -262,18 +250,15 @@ do {
 ### 4.2 응답 데이터 압축
 
 #### 압축 대상 파일
-
 - **압축 효과 큰 파일**: HTML, CSS, JavaScript, JSON, XML
 - **압축 제외 파일**: JPEG, PNG, ZIP, PDF (이미 압축된 파일)
 
 #### 압축 효과
-
 - **파일 크기 약 70% 감소**
 - 네트워크 대역폭 절약
 - 전송 시간 단축
 
 #### 설정 예시 (Nginx)
-
 ```nginx
 # gzip 압축 설정
 gzip on;
@@ -297,13 +282,11 @@ gzip_types
 ### 5.1 인덱스 생성 시 주의사항
 
 #### 언제 인덱스를 추가하지 말아야 하는가?
-
 - **소규모 테이블**: 수천 건 이하의 데이터
 - **읽기보다 쓰기가 많은 테이블**: INSERT/UPDATE 성능 저하
 - **이미 충분한 인덱스가 있는 경우**: 중복 인덱스 방지
 
 #### 인덱스 성능 모니터링
-
 ```sql
 -- MySQL: 인덱스 사용 통계 확인
 SELECT 
@@ -322,7 +305,6 @@ SHOW INDEX FROM your_table;
 ### 5.2 성능 측정 및 모니터링
 
 #### 쿼리 성능 분석
-
 ```sql
 -- 실행 계획 확인
 EXPLAIN ANALYZE SELECT * FROM users WHERE email = 'test@example.com';
@@ -333,7 +315,6 @@ SET GLOBAL long_query_time = 1; -- 1초 이상 쿼리 기록
 ```
 
 #### 주요 모니터링 지표
-
 - **응답 시간**: 평균, 95th percentile
 - **처리량**: QPS (Queries Per Second)
 - **DB 커넥션 사용률**: 풀 사용량 모니터링
@@ -342,7 +323,6 @@ SET GLOBAL long_query_time = 1; -- 1초 이상 쿼리 기록
 ### 5.3 점진적 개선 전략
 
 #### 성능 개선 우선순위
-
 1. **🔍 원인 분석**: DB vs 애플리케이션 문제 구분
 2. **📊 슬로우 쿼리 식별**: 가장 문제가 되는 쿼리 찾기
 3. **📈 인덱스 최적화**: 풀스캔 쿼리부터 해결
@@ -354,7 +334,6 @@ SET GLOBAL long_query_time = 1; -- 1초 이상 쿼리 기록
 ### 5.4 체크리스트
 
 #### DB 최적화 체크리스트
-
 - [ ] 주요 조회 쿼리에 적절한 인덱스 존재
 - [ ] 복합 인덱스 컬럼 순서가 최적화됨
 - [ ] 불필요한 인덱스 제거
