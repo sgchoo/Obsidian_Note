@@ -6,6 +6,7 @@
       {
         "id": "df142b0e2f7ae146",
         "type": "tabs",
+        "dimension": 70.52752293577981,
         "children": [
           {
             "id": "eff1b828c11ef7d0",
@@ -13,15 +14,55 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/무제.md",
+                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-1 처리량과 응답시간.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "무제"
+              "title": "ch.2-1 처리량과 응답시간"
             }
           }
         ]
+      },
+      {
+        "id": "039fa21dfbdcc150",
+        "type": "split",
+        "dimension": 29.472477064220183,
+        "children": [
+          {
+            "id": "2ea885c13b6dbeed",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "04c99b5a13ad2df8",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              }
+            ]
+          },
+          {
+            "id": "f098f0635e568362",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9e52b8d9b671f846",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "그래프 뷰"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -94,7 +135,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/무제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +144,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "무제 의 백링크"
+              "title": "백링크"
             }
           },
           {
@@ -136,16 +176,6 @@
             }
           },
           {
-            "id": "9e52b8d9b671f846",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
-            }
-          },
-          {
             "id": "52f4e496586ae5bd",
             "type": "leaf",
             "state": {
@@ -158,19 +188,9 @@
               "icon": "lucide-list",
               "title": "개요"
             }
-          },
-          {
-            "id": "04c99b5a13ad2df8",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -189,11 +209,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "448cb2f00a9b02f8",
+  "active": "9e52b8d9b671f846",
   "lastOpenFiles": [
-    "Calendar/Daily",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-1 처리량과 응답시간.md",
     "Calendar/무제.md",
+    "Calendar/Daily",
     "Calendar",
     "ReadMe.md",
     "DBMS/Prisma orderBy case 문법 오류 및 해결 방법.md",
@@ -226,7 +246,6 @@
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까",
     "Book/Code - 찰스 펫졸드/ch.12 바이트와 16진수.md.tmp.32540.1754483368427",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학",
-    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식",
     "무제.canvas"
   ]
 }
