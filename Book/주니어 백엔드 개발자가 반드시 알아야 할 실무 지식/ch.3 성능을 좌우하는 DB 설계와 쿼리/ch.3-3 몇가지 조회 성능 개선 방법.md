@@ -346,7 +346,6 @@ SELECT COUNT(*) FROM posts WHERE category_id = 1;
 ```
 
 #### COUNT가 느린 이유
-
 - **전체 레코드를 스캔**해야 함
 - **인덱스만으로는 해결 불가능한 경우** 많음
 - **페이지 단위로 읽어야 하는 I/O 비용**
