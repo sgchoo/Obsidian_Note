@@ -25,28 +25,12 @@
         ]
       },
       {
-        "id": "039fa21dfbdcc150",
+        "id": "3721175f1eb91f81",
         "type": "split",
         "dimension": 29.472477064220183,
         "children": [
           {
             "id": "2ea885c13b6dbeed",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "04c99b5a13ad2df8",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              }
-            ]
-          },
-          {
-            "id": "f098f0635e568362",
             "type": "tabs",
             "children": [
               {
@@ -57,6 +41,22 @@
                   "state": {},
                   "icon": "lucide-git-fork",
                   "title": "그래프 뷰"
+                }
+              }
+            ]
+          },
+          {
+            "id": "5550a753d91886cd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "04c99b5a13ad2df8",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
                 }
               }
             ]
@@ -194,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,7 +210,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9e52b8d9b671f846",
+  "active": "04c99b5a13ad2df8",
   "lastOpenFiles": [
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-1 처리량과 응답시간.md",
     "Calendar/무제.md",
