@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nest.js/N+1문제.md",
+                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.4 외부 연동이 문제일 때 살펴봐야 할 것들/ch.4-1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "N+1문제"
+              "title": "ch.4-1"
             }
           }
         ],
@@ -224,8 +224,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "eff1b828c11ef7d0",
+  "active": "448cb2f00a9b02f8",
   "lastOpenFiles": [
+    "Nest.js/N+1문제.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.4 외부 연동이 문제일 때 살펴봐야 할 것들/ch.4-1.md",
     "Nest.js/faker/테스트 목업 객체 라이브러리 Faker.md",
     "Nest.js/faker",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.4 외부 연동이 문제일 때 살펴봐야 할 것들",
@@ -255,8 +257,6 @@
     "Book/Code - 찰스 펫졸드/ch.14 논리 게이트로 덧셈하기.md",
     "Book/Code - 찰스 펫졸드/ch.13 ASCII에서 유니코드까지.md",
     "Book/Code - 찰스 펫졸드/ch.12 바이트와 16진수.md",
-    "Book/Code - 찰스 펫졸드/ch.11 비트,비트,비트.md",
-    "Book/Code - 찰스 펫졸드/ch.10 십진수 이외의 것.md",
     "Book/Code - 찰스 펫졸드/ch.12 바이트와 16진수.md.tmp.32540.1754483368427",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식",
