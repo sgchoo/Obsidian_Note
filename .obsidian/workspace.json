@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-2 서버 성능 개선 기초.md",
+                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리/ch.3-1 성능의 핵심인 DB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.2-2 서버 성능 개선 기초"
+              "title": "ch.3-1 성능의 핵심인 DB"
             }
           }
         ]
@@ -135,6 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리/ch.3-1 성능의 핵심인 DB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +145,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "ch.3-1 성능의 핵심인 DB 의 백링크"
             }
           },
           {
@@ -153,11 +154,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리/ch.3-1 성능의 핵심인 DB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "ch.3-1 성능의 핵심인 DB 의 나가는 링크"
             }
           },
           {
@@ -181,12 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리/ch.3-1 성능의 핵심인 DB.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "ch.3-1 성능의 핵심인 DB 의 개요"
             }
           }
         ],
@@ -211,10 +214,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9e52b8d9b671f846",
+  "active": "eff1b828c11ef7d0",
   "lastOpenFiles": [
-    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-2 서버 성능 개선 기초.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-1 처리량과 응답시간.md",
     "Calendar/2025-09-16 루나 코드 21 ~24장.md",
     "Calendar/2025-09-22 정보처리기사 실기 신청.md",
