@@ -6,9 +6,13 @@
 ## Categories
 ---
 ### Nest.js
+- faker
+	- 테스트 목업 객체 라이브러리
+### DBMS
+- 
 ### Lecture
 - FastCampus
-	- 
+	- 한번에 끝내는 CS & 인공지능
 - Inflearn
 ### Book
 - Code - 찰스 펫졸드
