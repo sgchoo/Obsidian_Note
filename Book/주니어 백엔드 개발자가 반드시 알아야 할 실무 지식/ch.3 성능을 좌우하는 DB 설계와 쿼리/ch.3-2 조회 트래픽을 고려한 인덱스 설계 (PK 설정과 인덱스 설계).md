@@ -3,7 +3,6 @@
 # 데이터베이스 Primary Key 전략 가이드
 
 ## 📌 목차
-
 1. [인덱스 기본 개념](https://claude.ai/chat/473a0096-0a35-450b-9107-ede1b320f3f4#1-%EC%9D%B8%EB%8D%B1%EC%8A%A4-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90)
 2. [Primary Key와 인덱스](https://claude.ai/chat/473a0096-0a35-450b-9107-ede1b320f3f4#2-primary-key%EC%99%80-%EC%9D%B8%EB%8D%B1%EC%8A%A4)
 3. [UUID vs Auto Increment 성능 비교](https://claude.ai/chat/473a0096-0a35-450b-9107-ede1b320f3f4#3-uuid-vs-auto-increment-%EC%84%B1%EB%8A%A5-%EB%B9%84%EA%B5%90)
@@ -16,7 +15,6 @@
 ## 1. 인덱스 기본 개념
 
 ### 인덱스란?
-
 - 데이터베이스에서 빠른 검색을 위한 **B+Tree 자료구조**
 - "테이블"이 아닌 "자료구조"로 이해해야 함
 - 책의 목차나 색인과 유사한 개념
