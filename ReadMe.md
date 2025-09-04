@@ -18,7 +18,12 @@
 - 유즈케이스 패턴
 - SMTP설정 및 Mailer Module
 ### DBMS
-- 
+- N + 1 문제
+- PostgreSQL 복제 및 이원화
+- Prisma orderBy case 문법 오류 및 해결 방법
+
+### Networks
+- VPC 및 Subnet
 ### Lecture
 - FastCampus
 	- 한번에 끝내는 CS & 인공지능
