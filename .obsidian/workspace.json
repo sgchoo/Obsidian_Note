@@ -135,7 +135,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-2 서버 성능 개선 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +144,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "ch.2-2 서버 성능 개선 기초 의 백링크"
+              "title": "백링크"
             }
           },
           {
@@ -154,12 +153,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-2 서버 성능 개선 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "ch.2-2 서버 성능 개선 기초 의 나가는 링크"
+              "title": "나가는 링크"
             }
           },
           {
@@ -183,13 +181,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-2 서버 성능 개선 기초.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ch.2-2 서버 성능 개선 기초 의 개요"
+              "title": "개요"
             }
           }
         ],
@@ -214,8 +211,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "eff1b828c11ef7d0",
+  "active": "9e52b8d9b671f846",
   "lastOpenFiles": [
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-2 서버 성능 개선 기초.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-1 처리량과 응답시간.md",
     "Calendar/2025-09-16 루나 코드 21 ~24장.md",
     "Calendar/2025-09-22 정보처리기사 실기 신청.md",
@@ -245,8 +244,6 @@
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리/ch.3-4 알아두면 좋을 몇 가지 주의사항.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리/ch.3-5 실패와 트랜잭션 고려하기.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리/ch.3-3 몇가지 조회 성능 개선 방법.md",
-    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리/ch.3-2 조회 트래픽을 고려한 인덱스 설계 (책내용).md",
-    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리/ch.3-2 조회 트래픽을 고려한 인덱스 설계 (PK 설정과 인덱스 설계).md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.1 들어가며",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까",
