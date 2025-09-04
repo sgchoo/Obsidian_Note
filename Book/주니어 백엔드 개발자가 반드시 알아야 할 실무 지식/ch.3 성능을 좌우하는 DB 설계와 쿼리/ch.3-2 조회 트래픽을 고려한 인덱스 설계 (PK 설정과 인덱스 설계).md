@@ -148,7 +148,6 @@ CREATE TABLE users (
 ### 장점
 
 #### 1. 보안
-
 ```javascript
 // ❌ 정수 ID 노출 - 예측 가능
 GET /api/users/12345
@@ -160,7 +159,6 @@ GET /api/users/??????  // 추측 불가능
 ```
 
 #### 2. 성능
-
 ```sql
 -- 내부 JOIN (빠름)
 SELECT * FROM orders WHERE user_id = 12345;  -- BIGINT
@@ -170,7 +168,6 @@ SELECT * FROM users WHERE public_id = 'uuid...';  -- INDEX 사용
 ```
 
 #### 3. 비즈니스 정보 보호
-
 ```python
 # 정수 ID: 비즈니스 규모 노출
 "주문번호 10000 → 10500" = "일주일 500건"
@@ -180,7 +177,6 @@ SELECT * FROM users WHERE public_id = 'uuid...';  -- INDEX 사용
 ```
 
 ### 실제 사용 예시
-
 ```javascript
 // API 엔드포인트
 app.get('/api/users/:publicId', async (req, res) => {
@@ -211,7 +207,6 @@ async function getUserOrders(userId) {
 ## 5. 실무 최적화 패턴
 
 ### 패턴 1: 역정규화
-
 ```sql
 -- UUID를 관련 테이블에 복사
 CREATE TABLE orders (
@@ -227,7 +222,6 @@ SELECT * FROM orders WHERE user_public_id = 'uuid...';
 ```
 
 ### 패턴 2: 캐싱
-
 ```javascript
 // Redis로 UUID → ID 매핑 캐싱
 async function getUserIdByPublicId(publicId) {
@@ -245,7 +239,6 @@ async function getUserIdByPublicId(publicId) {
 ```
 
 ### 패턴 3: Bulk Insert 최적화
-
 ```sql
 -- 대량 데이터 입력 시
 ALTER TABLE users DISABLE KEYS;
@@ -260,7 +253,6 @@ INSERT INTO users (name, email) VALUES
 ```
 
 ### 패턴 4: 애플리케이션 레벨 처리
-
 ```javascript
 class UserService {
     async getUserWithRelations(publicId) {
@@ -285,7 +277,6 @@ class UserService {
 ### 상황별 선택 가이드
 
 #### 1. 일반 웹 서비스 (권장) ✅
-
 ```sql
 CREATE TABLE users (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
@@ -295,7 +286,6 @@ CREATE TABLE users (
 ```
 
 #### 2. 초고속 INSERT 필요 (로그)
-
 ```sql
 CREATE TABLE logs (
     id BIGINT AUTO_INCREMENT PRIMARY KEY
@@ -304,7 +294,6 @@ CREATE TABLE logs (
 ```
 
 #### 3. 완전 분산 시스템
-
 ```sql
 CREATE TABLE distributed_data (
     id CHAR(36) PRIMARY KEY  -- UUID v7 사용
@@ -312,7 +301,6 @@ CREATE TABLE distributed_data (
 ```
 
 ### 핵심 원칙
-
 1. **항상 PK는 필수** - 없으면 성능/무결성 문제
 2. **보안이 필요하면 이중 키** - 성능 손실 최소화
 3. **대량 INSERT는 순차 키** - AUTO_INCREMENT 최고
@@ -320,7 +308,6 @@ CREATE TABLE distributed_data (
 5. **트레이드오프 이해** - 완벽한 해결책은 없음
 
 ### 체크리스트
-
 - [ ] PK는 반드시 설정했는가?
 - [ ] 외부 노출 API인가? → 이중 키 고려
 - [ ] JOIN이 많은가? → 정수 PK 필수
