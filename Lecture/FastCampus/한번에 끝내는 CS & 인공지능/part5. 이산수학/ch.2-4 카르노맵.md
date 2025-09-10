@@ -93,3 +93,7 @@
 Y=A+B
 
 따라서, $Y = \overline{AB} + \overline{A}B + A\overline{B}$는 $Y = \overline{A} + \overline{B}$로 간소화될 수 있으며, 드모르간 법칙에 의해 $\overline{AB}$와 동일합니다.
+
+---
+
+#### 4. Gray Code
