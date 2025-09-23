@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.5 비동기 연동, 언제 어떻게 써야 할까/ch.5-4 트랜잭션 아웃박스 패턴.md",
+                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.5 비동기 연동, 언제 어떻게 써야 할까/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.5-4 트랜잭션 아웃박스 패턴"
+              "title": "무제"
             }
           }
         ]
@@ -216,8 +216,9 @@
   },
   "active": "eff1b828c11ef7d0",
   "lastOpenFiles": [
-    "Book/Code - 찰스 펫졸드/ch.4 전등을 분해해 봅시다..md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.5 비동기 연동, 언제 어떻게 써야 할까/ch.5-4 트랜잭션 아웃박스 패턴.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.5 비동기 연동, 언제 어떻게 써야 할까/무제.md",
+    "Book/Code - 찰스 펫졸드/ch.4 전등을 분해해 봅시다..md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식.md",
     "Book/Code - 찰스 펫졸드/Code - 찰스 펫졸드.md",
     "Book/Code - 찰스 펫졸드/ch.5 가까운 거리에서 이야기하기.md",
@@ -245,7 +246,6 @@
     "Calendar",
     "ReadMe.md",
     "DBMS/Prisma orderBy case 문법 오류 및 해결 방법.md",
-    "Nest.js/SMTP설정 및 Mailer Module.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.5 비동기 연동, 언제 어떻게 써야 할까",
     "Nest.js/faker",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.4 외부 연동이 문제일 때 살펴봐야 할 것들",
