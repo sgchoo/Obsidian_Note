@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.3-7 Tree.md",
+                "file": "Nest.js/faker/테스트 목업 객체 라이브러리 Faker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.3-7 Tree"
+              "title": "테스트 목업 객체 라이브러리 Faker"
             }
           }
         ]
@@ -216,8 +216,8 @@
   },
   "active": "eff1b828c11ef7d0",
   "lastOpenFiles": [
-    "Networks/VPC 및 Subnet.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.3-7 Tree.md",
+    "Networks/VPC 및 Subnet.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.3-6 가중치 그래프와 최단경로.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.3-5 방향성 그래프와 Path.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.3-4 지하철 노선도와 인접행렬.md",
