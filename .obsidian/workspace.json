@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "VPC 및 Subnet"
             }
+          },
+          {
+            "id": "b754115a16d13469",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.9.14"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3721175f1eb91f81",
@@ -210,11 +223,10 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "eff1b828c11ef7d0",
+  "active": "b754115a16d13469",
   "lastOpenFiles": [
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.3-6 가중치 그래프와 최단경로.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.3-5 방향성 그래프와 Path.md",
