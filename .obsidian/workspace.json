@@ -14,28 +14,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networks/VPC 및 Subnet.md",
+                "file": "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.3-7 Tree.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VPC 및 Subnet"
-            }
-          },
-          {
-            "id": "b754115a16d13469",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.9.14"
+              "title": "ch.3-7 Tree"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3721175f1eb91f81",
@@ -223,11 +210,14 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "b754115a16d13469",
+  "active": "eff1b828c11ef7d0",
   "lastOpenFiles": [
+    "Networks/VPC 및 Subnet.md",
+    "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.3-7 Tree.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.3-6 가중치 그래프와 최단경로.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.3-5 방향성 그래프와 Path.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.3-4 지하철 노선도와 인접행렬.md",
@@ -252,8 +242,6 @@
     "Book/Code - 찰스 펫졸드/Code - 찰스 펫졸드.md",
     "Book/Code - 찰스 펫졸드/ch.5 가까운 거리에서 이야기하기.md",
     "MD Viewer.md",
-    "Messaging/메세지 종류와 고려해야할 점.md",
-    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.5 비동기 연동, 언제 어떻게 써야 할까/ch.5-3 메세지.md",
     "Messaging",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.5 비동기 연동, 언제 어떻게 써야 할까/ch.5-3 메세징",
     "Calendar/Daily",
