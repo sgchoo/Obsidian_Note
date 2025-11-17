@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "테스트 목업 객체 라이브러리 Faker"
             }
+          },
+          {
+            "id": "a4cb1fc7ac1733cb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.10.3"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3721175f1eb91f81",
@@ -214,7 +227,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "eff1b828c11ef7d0",
+  "active": "a4cb1fc7ac1733cb",
   "lastOpenFiles": [
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.3-7 Tree.md",
     "Networks/VPC 및 Subnet.md",
