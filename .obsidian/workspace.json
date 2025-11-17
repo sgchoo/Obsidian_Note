@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-1 처리량과 응답시간.md",
+                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리/ch.3-1 성능의 핵심인 DB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.2-1 처리량과 응답시간"
+              "title": "ch.3-1 성능의 핵심인 DB"
             }
           }
         ]
@@ -216,8 +216,8 @@
   },
   "active": "eff1b828c11ef7d0",
   "lastOpenFiles": [
-    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-2 서버 성능 개선 기초.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-1 처리량과 응답시간.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-2 서버 성능 개선 기초.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.1 들어가며/ch.1 코딩을 할 수 있게 된 것일 뿐.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.4-1 마르코프 체인.md",
     "Lecture/FastCampus/한번에 끝내는 CS & 인공지능/part5. 이산수학/ch.3-8 허프만 코딩(Huffman Coding).md",
