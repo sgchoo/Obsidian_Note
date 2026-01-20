@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "ch.3-4 알아두면 좋을 몇 가지 주의사항"
             }
+          },
+          {
+            "id": "a278f709c4236337",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.11.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3721175f1eb91f81",
@@ -210,11 +223,10 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "eff1b828c11ef7d0",
+  "active": "a278f709c4236337",
   "lastOpenFiles": [
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리/ch.3-5 실패와 트랜잭션 고려하기.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리/ch.3-4 알아두면 좋을 몇 가지 주의사항.md",
