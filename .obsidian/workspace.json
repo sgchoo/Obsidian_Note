@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "6. NIC, L2 Frame, LAN 카드, MAC 주소"
             }
+          },
+          {
+            "id": "4327e2e32d5d5ef7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.11.5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3721175f1eb91f81",
@@ -214,7 +227,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "eff1b828c11ef7d0",
+  "active": "4327e2e32d5d5ef7",
   "lastOpenFiles": [
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.3 성능을 좌우하는 DB 설계와 쿼리/ch.3-4 알아두면 좋을 몇 가지 주의사항.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/6. NIC, L2 Frame, LAN 카드, MAC 주소.md",
