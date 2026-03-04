@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/12-1. Port, IP, MAC의 역할 분리.md",
+                "file": "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/14. TCP.IP의.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12-1. Port, IP, MAC의 역할 분리"
+              "title": "14. TCP.IP의"
             }
           }
         ]
@@ -216,9 +216,10 @@
   },
   "active": "eff1b828c11ef7d0",
   "lastOpenFiles": [
+    "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/12-1. Port, IP, MAC의 역할 분리.md",
+    "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/14. TCP.IP의.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/12. 패킷의 생성과 전달, 소멸.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/13-1..md",
-    "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/12-1. Port, IP, MAC의 역할 분리.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/13. 계층별 데이터 단위.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/11. Encapsulation과 Decapsulation.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/10. L3 Packet.md",
@@ -243,7 +244,6 @@
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-2 서버 성능 개선 기초.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.2 느려진 서비스, 어디서부터 봐야 할까/ch.2-1 처리량과 응답시간.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/외워서 끝내는 네트워크 핵심이론 - 기초.md",
-    "ReadMe.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초",
     "Messaging",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.5 비동기 연동, 언제 어떻게 써야 할까/ch.5-3 메세징",
