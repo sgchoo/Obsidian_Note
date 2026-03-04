@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/13-1..md",
+                "file": "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/12-1. Port, IP, MAC의 역할 분리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13-1."
+              "title": "12-1. Port, IP, MAC의 역할 분리"
             }
           }
         ]
@@ -216,9 +216,9 @@
   },
   "active": "eff1b828c11ef7d0",
   "lastOpenFiles": [
-    "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/12-1. Port, IP, MAC의 역할 분리.md",
-    "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/13-1..md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/12. 패킷의 생성과 전달, 소멸.md",
+    "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/13-1..md",
+    "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/12-1. Port, IP, MAC의 역할 분리.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/13. 계층별 데이터 단위.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/11. Encapsulation과 Decapsulation.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/10. L3 Packet.md",
