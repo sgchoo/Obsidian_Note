@@ -281,7 +281,7 @@ SQS
 
 ---
 
-## 18. Node/Nest에서 조심해야 할 블로킹 코드
+## 8. Node/Nest에서 조심해야 할 블로킹 코드
 
 Node/Nest가 논블로킹 I/O 기반이라고 해서 모든 코드가 자동으로 논블로킹이 되는 것은 아니다.
 
@@ -325,7 +325,7 @@ Node Cluster / PM2 Cluster
 
 ---
 
-## 19. Java NIO와 Node/Nest 비교
+## 9. Java NIO와 Node/Nest 비교
 
 |개념|Java NIO|Node/Nest|
 |---|---|---|
@@ -338,7 +338,7 @@ Node Cluster / PM2 Cluster
 
 ---
 
-## 20. 최종 정리
+## 10. 최종 정리
 
 논블로킹 I/O는 다음 문제를 해결한다.
 
