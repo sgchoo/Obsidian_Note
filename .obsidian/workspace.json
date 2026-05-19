@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.7 IO병목, 어떻게 해결하지/ch.7-3-1 논블로킹 IO로 성능 더 높이기_논블로킹 IO 동작 개요.md",
+                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.7 IO병목, 어떻게 해결하지/ch.7-2 가상 스레드로 자원 효율 높이기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.7-3-1 논블로킹 IO로 성능 더 높이기_논블로킹 IO 동작 개요"
+              "title": "ch.7-2 가상 스레드로 자원 효율 높이기"
             }
           }
         ]
