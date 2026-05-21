@@ -58,7 +58,3 @@
         
 
 이 패턴은 데이터의 신뢰성이 매우 중요한 금융 시스템이나 이커머스의 주문/결제 시스템 등 다양한 분야에서 효과적으로 사용될 수 있습니다.
-
-This video explains how to implement the Transactional Outbox Pattern to ensure reliable message publishing.
-
-Implementing the Transactional Outbox Pattern
