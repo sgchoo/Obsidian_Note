@@ -265,9 +265,7 @@ Authorization: Bearer access_token
 대표적으로 다음과 같은 알고리즘을 사용한다.
 
 - bcrypt
-    
 - scrypt
-    
 - Argon2
     
 
@@ -357,27 +355,16 @@ HTTPS → 암호화 전송
 인증과 인가를 구현할 때는 다음 사항을 주의해야 한다.
 
 - 비밀번호를 평문으로 저장하지 않는다.
-    
 - 토큰 만료 시간을 설정한다.
-    
 - Access Token은 짧게 유지한다.
-    
 - Refresh Token은 안전하게 저장한다.
-    
 - 로그아웃 시 Refresh Token을 폐기한다.
-    
 - HTTPS를 사용한다.
-    
 - 쿠키 사용 시 HttpOnly, Secure, SameSite 설정을 적용한다.
-    
 - 관리자 API는 반드시 권한을 확인한다.
-    
 - 사용자 자원 접근 시 소유자 검사를 한다.
-    
 - 클라이언트에서 숨긴 버튼만 믿지 않는다.
-    
 - 최종 권한 검사는 반드시 서버에서 한다.
-    
 
 ---
 
