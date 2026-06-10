@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.8 실무에서 꼭 필요한 보안 지식/ch.8-3 HMAC을 이용한 데이터 검증.md",
+                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.9 최소한 알고 있어야 할 서버 지식/ch.9-1 OS 계정과 권한.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.8-3 HMAC을 이용한 데이터 검증"
+              "title": "ch.9-1 OS 계정과 권한"
             }
           }
         ]
@@ -216,8 +216,10 @@
   },
   "active": "eff1b828c11ef7d0",
   "lastOpenFiles": [
-    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.8 실무에서 꼭 필요한 보안 지식/ch.8-2 인증과 인가.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.8 실무에서 꼭 필요한 보안 지식/ch.8-3 HMAC을 이용한 데이터 검증.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.9 최소한 알고 있어야 할 서버 지식/ch.9-1 OS 계정과 권한.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.9 최소한 알고 있어야 할 서버 지식",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.8 실무에서 꼭 필요한 보안 지식/ch.8-2 인증과 인가.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.8 실무에서 꼭 필요한 보안 지식/ch.8-1 중요한 보안.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.8 실무에서 꼭 필요한 보안 지식/무제 1.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.7 IO병목, 어떻게 해결하지/ch.7-4 언제 어떤 방법을 택할까.md",
@@ -244,14 +246,12 @@
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/10. L3 Packet.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/9. IPv4 주소.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/8-1. LAN과 WAN이 물리적, 논리적으로만 나뉘지 않는 이유.md",
-    "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/8. LAN과 WAN의 경게 그리고 Broadcast.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/무제",
     "Payment",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초",
     "Messaging",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.5 비동기 연동, 언제 어떻게 써야 할까/ch.5-3 메세징",
     "Calendar/Daily",
-    "Calendar",
     "무제.canvas"
   ]
 }
