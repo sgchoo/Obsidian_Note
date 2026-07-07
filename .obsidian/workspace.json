@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.10 모르면 답답해지는 네트워크 기초/ch.10-2 NAT.md",
+                "file": "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.10 모르면 답답해지는 네트워크 기초/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.10-2 NAT"
+              "title": "무제"
             }
           }
         ]
@@ -216,8 +216,9 @@
   },
   "active": "eff1b828c11ef7d0",
   "lastOpenFiles": [
-    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.10 모르면 답답해지는 네트워크 기초/ch.10-1 노드,네트워크,라우터.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.10 모르면 답답해지는 네트워크 기초/ch.10-2 NAT.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.10 모르면 답답해지는 네트워크 기초/무제.md",
+    "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.10 모르면 답답해지는 네트워크 기초/ch.10-1 노드,네트워크,라우터.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.9 최소한 알고 있어야 할 서버 지식/ch.9-2 프로세스 확인하기.md",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.10 모르면 답답해지는 네트워크 기초",
     "Book/주니어 백엔드 개발자가 반드시 알아야 할 실무 지식/ch.9 최소한 알고 있어야 할 서버 지식/ch.9-1 OS 계정과 권한.md",
@@ -246,7 +247,6 @@
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/14. TCP.IP 송수신 구조.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/12-1. Port, IP, MAC의 역할 분리.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/12. 패킷의 생성과 전달, 소멸.md",
-    "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/11. Encapsulation과 Decapsulation.md",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초/무제",
     "Payment",
     "Lecture/Inflearn/외워서 끝내는 네트워크 핵심이론 - 기초",
