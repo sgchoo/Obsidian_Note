@@ -89,7 +89,7 @@ data class Money(val amount: BigDecimal) {
 - 연관된 Entity와 Value를 묶어 **하나의 일관성(consistency) 경계**를 이룬다.
 - 예: `Order` Aggregate = `Order`(Root Entity) + `OrderLine`(Value 목록) + `ShippingAddress`(Value)
 
-**보완 포인트 — 원문에서 빠진 핵심 개념들:**
+**보완 포인트**
 
 1. **Aggregate Root**: Aggregate 내부에는 여러 객체가 있지만, 외부에서는 반드시 **Root 하나를 통해서만** 접근해야 한다. `OrderLine`을 외부에서 직접 수정하는 코드가 있으면 안 되고, 반드시 `order.changeOrderLine(...)`처럼 Root의 메서드를 거쳐야 한다.
 2. **불변식(Invariant) 관리**: Aggregate의 존재 이유는 "이 경계 안의 규칙은 항상 참이어야 한다"는 것을 보장하는 것이다. 예: "주문 총액은 항상 OrderLine 합계와 일치해야 한다", "배송 시작 후에는 주소를 바꿀 수 없다."
