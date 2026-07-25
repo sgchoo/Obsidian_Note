@@ -55,8 +55,8 @@
                 "state": {
                   "type": "calendar",
                   "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
+                  "icon": "lucide-ghost",
+                  "title": "calendar"
                 }
               }
             ]
@@ -208,10 +208,7 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
   "active": "eff1b828c11ef7d0",
